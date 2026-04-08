@@ -1,0 +1,1426 @@
+<!doctype html>
+<html
+  lang="en"
+  data-ws-project="de80d283-6741-4a4e-af1b-bc9018e3ebd8"
+  data-ws-last-published="2026-04-01T22:52:19.283Z"
+>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/assets/static/app_generated_index-6937cd5a.C2-oEdiP.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="preload"
+      as="image"
+      imagesrcset="https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 384w, https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 640w, https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 750w, https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 828w, https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 1080w, https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 1200w, https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 1920w, https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 2048w, https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 3840w"
+      imagesizes="(min-width: 1280px) 50vw, 100vw"
+    />
+    <link rel="icon" href="/assets/parallax_nq38gKojiNhQpDqfAamVH.jpeg" />
+    <link
+      rel="preload"
+      href="/assets/Inter-VariableFont_opsz_wght_5pWJ31-T_iPEwHdXmYt6P.ttf"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/assets/Group_1_3Lze2enBpFNP3rVOtd0Yp.svg"
+      as="image"
+    />
+    <meta property="og:url" content="https://url/newsroom" />
+    <meta property="og:title" content="Newsroom - contrast" />
+    <meta property="og:type" content="website" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="Learn the latest news from contrast" />
+    <meta
+      property="og:description"
+      content="Learn the latest news from contrast"
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <title>Newsroom - contrast</title>
+    <style>
+      .newsroom-title {
+        text-align: left !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-family: 'Inter', sans-serif !important;
+        font-weight: 500 !important;
+        font-size: clamp(2rem, 9vw, 5rem) !important;
+        color: transparent !important;
+        background-image: var(--gradient-2) !important;
+        background-clip: text !important;
+        -webkit-background-clip: text !important;
+        background-origin: padding-box !important;
+        background-attachment: scroll !important;
+        background-repeat: repeat !important;
+        background-size: auto auto !important;
+        line-height: var(--font-lineheight-00) !important;
+        letter-spacing: -2px !important;
+        text-wrap: balance !important;
+        padding-bottom: var(--size-2) !important;
+      }
+      #newsroom-title-wrapper {
+        padding-left: 200px !important;
+        text-align: left !important;
+      }
+    </style>
+  </head>
+  <body class="w-element">
+    <div style="display: contents">
+      <div style="display: contents">
+        <div class="w-html-embed">
+          <style>
+            /* So we don't need to add a token to every paragraph to remove margin. */
+            p {
+              margin: 0;
+            }
+
+            /* News Pill Component Styles */
+            .news-pill {
+              background: rgba(255, 255, 255, 0.15) !important;
+              border: 2px solid #00ff00 !important;
+              border-radius: 50px;
+              padding: 16px 20px;
+              margin: 0 auto 12px;
+              cursor: pointer;
+              transition: all var(--ani-duration, 0.3s) var(--ani-easing, ease);
+              overflow: visible !important;
+              height: 55px;
+              display: flex !important;
+              flex-direction: column;
+              justify-content: flex-start;
+              align-items: stretch;
+              visibility: visible !important;
+              opacity: 1 !important;
+            }
+
+            .news-pill.expanded {
+              border-radius: 20px;
+              height: auto;
+              overflow: visible;
+              padding: 24px;
+            }
+
+            .pill-header {
+              display: flex !important;
+              justify-content: space-between;
+              align-items: center;
+              gap: 12px;
+              font-family: 'Inter', sans-serif;
+              flex-shrink: 0;
+              min-height: 24px;
+              visibility: visible !important;
+              opacity: 1 !important;
+            }
+
+            .pill-header span {
+              font-weight: 600;
+              font-size: 16px;
+              white-space: normal;
+              overflow: visible;
+              text-overflow: clip;
+              flex: 1;
+              visibility: visible !important;
+              opacity: 1 !important;
+            }
+
+            .pill-header small {
+              opacity: 0.5;
+              font-size: 13px;
+              white-space: nowrap;
+              flex-shrink: 0;
+            }
+
+            .pill-content {
+              display: none;
+              margin-top: 16px;
+              white-space: pre-line;
+              word-wrap: break-word;
+              font-family: 'Inter', sans-serif;
+              font-size: 14px;
+              line-height: 1.6;
+              width: 100%;
+            }
+
+            .news-pill.expanded .pill-content {
+              display: block;
+            }
+
+            .pill-img {
+              max-width: 100%;
+              height: auto;
+              border-radius: 8px;
+              margin-bottom: 12px;
+              display: block;
+            }
+
+            .pill-img[data-error="true"] {
+              display: none;
+            }
+
+            .news-unavailable {
+              text-align: center;
+              padding: 40px;
+              opacity: 0.6;
+              font-family: 'Inter', sans-serif;
+            }
+
+            {
+              /* Make links scroll to their sections smoothly. */
+              scroll-behavior: smooth;
+            } 
+          </style>
+        </div>
+        <div class="w-html-embed">
+          <style>
+            :root {
+              --ani-duration: var(--duration-default, 0.2s);
+              --ani-delay: 0s;
+              --ani-slide-offset: 20%;
+              --ani-zoom-in-scale: 1;
+              --ani-zoom-out-scale: 0.85;
+              --ani-flip-rotate: 30deg;
+              --ani-easing: var(--easing-default, ease);
+              --ani-fill-mode: forwards;
+            }
+            [data-ani]:not([data-ani-children]),
+            [data-ani-children]:not([data-ani-progress]) > * {
+              animation-duration: var(--ani-duration);
+              animation-delay: var(--ani-delay);
+              animation-timing-function: var(--ani-easing);
+              animation-fill-mode: var(--ani-fill-mode);
+              opacity: 0;
+            }
+            [data-ani-progress]:not([data-ani-children]),
+            [data-ani-children]:not([data-ani]) > * {
+              transition-property: opacity, transform;
+              transition-duration: var(--ani-duration);
+              transition-timing-function: var(--ani-easing);
+              opacity: 0;
+            }
+            @keyframes fadeIn {
+              from {
+                opacity: 0;
+              }
+              to {
+                opacity: 1;
+              }
+            }
+            @keyframes fadeOut {
+              from {
+                opacity: 1;
+              }
+              to {
+                opacity: 0;
+              }
+            }
+            [data-ani-children][data-ani="fade"] > .in,
+            [data-ani="fade"]:where(
+                .in:not([data-state]),
+                [data-state$="open"],
+                [data-state="active"]
+              ) {
+              animation-name: fadeIn;
+            }
+            [data-ani-children][data-ani="fade"] > .out,
+            [data-ani="fade"]:where(
+                .out:not([data-state]),
+                [data-state="closed"],
+                [data-state="inactive"]
+              ) {
+              animation-name: fadeOut;
+            }
+            @keyframes slideIn {
+              from {
+                opacity: 0;
+                translate: var(--ani-slide-transform);
+              }
+              to {
+                opacity: 1;
+                translate: none;
+              }
+            }
+            @keyframes slideOut {
+              from {
+                opacity: 1;
+                translate: none;
+              }
+              to {
+                opacity: 0;
+                translate: var(--ani-slide-transform);
+              }
+            }
+            [data-ani-children][data-ani|="slide"] > .in,
+            [data-ani|="slide"]:where(
+                .in:not([data-state]),
+                [data-state$="open"],
+                [data-state="active"]
+              ) {
+              animation-name: slideIn;
+            }
+            [data-ani-children][data-ani|="slide"] > .out,
+            [data-ani|="slide"]:where(
+                .out:not([data-state]),
+                [data-state="closed"],
+                [data-state="inactive"]
+              ) {
+              animation-name: slideOut;
+            }
+            [data-ani="slide-up"] {
+              --ani-slide-transform: 0 var(--ani-slide-offset);
+            }
+            [data-ani="slide-down"] {
+              --ani-slide-transform: 0 calc(-1 * var(--ani-slide-offset));
+            }
+            [data-ani="slide-left"] {
+              --ani-slide-transform: var(--ani-slide-offset);
+            }
+            [data-ani="slide-right"] {
+              --ani-slide-transform: calc(-1 * var(--ani-slide-offset));
+            }
+            @keyframes zoomIn {
+              from {
+                opacity: 0;
+                scale: var(--ani-zoom-out-scale);
+              }
+              to {
+                opacity: 1;
+                scale: 1;
+              }
+            }
+            @keyframes zoomOut {
+              from {
+                opacity: 1;
+                scale: 1;
+              }
+              to {
+                opacity: 0;
+                scale: var(--ani-zoom-in-scale);
+              }
+            }
+            [data-ani-children][data-ani="zoom"] > .in,
+            [data-ani|="zoom"]:where(
+                .in:not([data-state]),
+                [data-state$="open"],
+                [data-state="active"]
+              ) {
+              animation-name: zoomIn;
+            }
+            [data-ani-children][data-ani="zoom"] > .out,
+            [data-ani|="zoom"]:where(
+                .out:not([data-state]),
+                [data-state="closed"],
+                [data-state="inactive"]
+              ) {
+              animation-name: zoomOut;
+            }
+            [data-ani-children][data-ani-progress="zoom"] > *,
+            [data-ani-progress="zoom"]:not([data-ani-children]) {
+              transform: scale(var(--ani-zoom-out-scale));
+            }
+            @keyframes flipInY {
+              from {
+                rotate: y var(--ani-flip-rotate);
+                perspective: 2000px;
+                opacity: 0;
+              }
+              to {
+                rotate: y 0;
+                opacity: 1;
+              }
+            }
+            @keyframes flipOutY {
+              from {
+                rotate: y 0;
+                opacity: 1;
+              }
+              to {
+                perspective: 2000px;
+                rotate: y var(--ani-flip-rotate);
+                opacity: 0;
+              }
+            }
+            @keyframes flipInX {
+              from {
+                perspective: 2000px;
+                rotate: x var(--ani-flip-rotate);
+                opacity: 0;
+              }
+              to {
+                rotate: x 0;
+                opacity: 1;
+              }
+            }
+            @keyframes flipOutX {
+              from {
+                rotate: x 0;
+                opacity: 1;
+              }
+              to {
+                perspective: 2000px;
+                rotate: x var(--ani-flip-rotate);
+                opacity: 0;
+              }
+            }
+            [data-ani-children][data-ani="flip-y"] > .in,
+            [data-ani="flip-y"]:where(
+                .in:not([data-state]),
+                [data-state$="open"],
+                [data-state="active"]
+              ) {
+              animation-name: flipInY;
+            }
+            [data-ani-children][data-ani="flip-x"] > .in,
+            [data-ani="flip-x"]:where(
+                .in:not([data-state]),
+                [data-state$="open"],
+                [data-state="active"]
+              ) {
+              animation-name: flipInX;
+            }
+            [data-ani-children][data-ani="flip-y"] > .out,
+            [data-ani="flip-y"]:where(
+                .out:not([data-state]),
+                [data-state="closed"],
+                [data-state="inactive"]
+              ) {
+              animation-name: flipOutY;
+            }
+            [data-ani-children][data-ani="flip-x"] > .out,
+            [data-ani="flip-x"]:where(
+                .out:not([data-state]),
+                [data-state="closed"],
+                [data-state="inactive"]
+              ) {
+              animation-name: flipOutX;
+            }
+            @keyframes expandDown {
+              from {
+                height: 0;
+              }
+              to {
+                height: var(--newHeight);
+              }
+            }
+            @keyframes expandUp {
+              from {
+                height: var(--newHeight);
+              }
+              to {
+                height: 0;
+              }
+            }
+            [data-ani="expand"],
+            [data-ani="expand"][data-state="open"],
+            [data-ani="expand"].in {
+              --newHeight: var(
+                --custom-height,
+                var(
+                  --radix-accordion-content-height,
+                  var(--radix-collapsible-content-height, 100%)
+                )
+              );
+              overflow: hidden;
+              opacity: 1;
+            }
+            [data-ani-children][data-ani="expand"] > .in,
+            [data-ani="expand"]:where(
+                .in:not([data-state]),
+                [data-state$="open"],
+                [data-state="active"]
+              ) {
+              animation: expandDown var(--ani-duration) var(--ani-easing);
+            }
+            [data-ani-children][data-ani="expand"] > .out,
+            [data-ani="expand"]:where(
+                .out:not([data-state]),
+                [data-state="closed"],
+                [data-state="inactive"]
+              ) {
+              animation: expandUp var(--ani-duration) var(--ani-easing);
+            }
+            @media (prefers-reduced-motion: reduce) {
+              [data-ani]:not([data-ani-children]),
+              [data-ani-progress]:not([data-ani-children]),
+              [data-ani-children] > * {
+                opacity: 1;
+                transform: none;
+                animation: none;
+                rotate: none;
+                scale: none;
+                translate: none;
+              }
+            }
+          </style>
+        </div>
+        <header
+          class="w-box c1357293 c9jnjeu czr2pxy c155uc7w cry9bxc c1lxiyww c1qyy4dh ct02u4h c1z0l37u c1ml0hr7 c1fd0kk1 c11gzs80 c1sche0c c1l2989r cjqo3r0 c1cvcmzo c3xzas1 c1n6cdq4 c1a5jpyh c18j5d8w c1fysxfs"
+        >
+          <div
+            class="w-box czr2pxy copqmak ct8c5y2 c10zkoym cignq8x cavd3zn c1tbut6b c1tzxl2z c16n19h8 cwqojdn c7klx50 c1qrxaqp cjkeggx c8pi8fa cow6lkx c1oxjrsz csud216 c1xiy5b1 cq7d8me c1ycnvnd"
+          >
+            <div style="display: contents">
+              <div style="display: contents">
+                <a
+                  aria-label="Home"
+                  href="/"
+                  class="w-link ceaxqcs cld4m44 c1e9wxra c1c9nyn co9inq6 c18nx7en c13zjl4p cl60rel czukzo6 cho8smv"
+                  ><img
+                    alt="logo"
+                    src="https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg"
+                    id="87e23c1e58c784fc3272fd4fd82db4fc603da77ff06bb8d51462b02c01fe84af"
+                    class="w-image c1oj4qw c183qt6d c1twgu0n c5r7m82 coe1sx2"
+                    sizes="(min-width: 1280px) 50vw, 100vw"
+                    srcset="
+                      https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg  384w,
+                      https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg  640w,
+                      https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg  750w,
+                      https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg  828w,
+                      https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 1080w,
+                      https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 1200w,
+                      https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 1920w,
+                      https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 2048w,
+                      https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 3840w
+                    "
+                    decoding="async"
+                    loading="eager"
+                /></a>
+              </div>
+            </div>
+            <nav
+              aria-label="main"
+              class="w-box c1mcu1jn cry9bxc c1qyy4dh ct02u4h c1lfjoq7 cgtnddv c1le23sj c40yjke c1kzn7na c17q2jvf ct49a6u c102r6kr c4sllhu clmbo8f cc3dq2t"
+            >
+              <div style="display: contents">
+                <div style="display: contents">
+                  <nav
+                    aria-label="Main"
+                    data-orientation="horizontal"
+                    dir="ltr"
+                    class="w-navigation-menu c1cqu2xh cry9bxc cvblku1 c1xuq60h c1p217py c193ydh7 crglsme c14ip164 c1bkqfhr c1qyy4dh ct02u4h c13ldpkq c1gw84sn cjq768y c1le23sj c40yjke c1kzn7na c17q2jvf"
+                  >
+                    <div style="position: relative">
+                      <ul
+                        data-orientation="horizontal"
+                        class="w-menu-list cry9bxc c1fhkm63 cqeb86t c1admj5d c34dwh1 c1qyy4dh ct02u4h cdq89vd c1tcoltv c3qzgd0 c1y6imu0 c1n13r54 c1le23sj c40yjke c1kzn7na c17q2jvf c1gw84sn cjq768y"
+                        dir="ltr"
+                      >
+                        <li data-ws-index="0" class="w-menu-item">
+                          <button
+                            type="button"
+                            class="w-button c12j9tyh csru8nn c1e9wxra c1c9nyn co9inq6 c18nx7en c13zjl4p ch11gwv c1md20bl c1e892th c1qyy4dh ct02u4h c1e7helk c1l0vha7 csyy8v5 c1bc2i7x c17r8x7j c13b531o c1my01bv c135vpv5 c1y6imu0 c3qzgd0 cl60rel czukzo6 c1170qfo c12mjb61"
+                            id="radix-:Rmm:-trigger-0"
+                            data-state="closed"
+                            aria-expanded="false"
+                            aria-controls="radix-:Rmm:-content-0"
+                            data-radix-collection-item=""
+                          >
+                            <div class="w-text">Media</div>
+                            <div
+                              class="w-box c7ewoh2 c5m8ase clv8gve ch2prsz cg4iiql c7cjz93 c1c9nyn co9inq6 c18nx7en c13zjl4p"
+                            >
+                              <div class="w-html-embed">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 16 16"
+                                  fill="currentColor"
+                                  width="100%"
+                                  height="100%"
+                                >
+                                  <path
+                                    d="M4.04 6.284a.65.65 0 0 1 .92.001L8 9.335l3.04-3.05a.65.65 0 1 1 .921.918l-3.5 3.512a.65.65 0 0 1-.921 0L4.039 7.203a.65.65 0 0 1 .001-.92Z"
+                                  ></path>
+                                </svg>
+                              </div>
+                            </div>
+                          </button>
+                        </li>
+                        <li data-ws-index="1" class="w-menu-item">
+                          <a
+                            href="/shop"
+                            class="w-link c12j9tyh csru8nn c1e9wxra c1c9nyn co9inq6 c18nx7en c13zjl4p ch11gwv c1md20bl c1e892th c1qyy4dh ct02u4h c1e7helk c1l0vha7 csyy8v5 c1bc2i7x c17r8x7j c13b531o c1my01bv c135vpv5 c1y6imu0 c3qzgd0 cl60rel czukzo6 c1170qfo c12mjb61"
+                            >Shop</a
+                          >
+                        </li>
+                        <li data-ws-index="2" class="w-menu-item">
+                          <a
+                            href="/newsroom"
+                            class="newsroom-title"
+                            >Newsroom</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="w-box cdwd3jx c1lzcxwg cry9bxc ct02u4h cdtylqg chmjof8 czr2pxy c3xzas1 c1n6cdq4"
+                    ></div>
+                  </nav>
+                </div>
+              </div>
+            </nav>
+            <div class="w-box cry9bxc c1qyy4dh ct02u4h cn6056e c1117wcl">
+              <div class="w-box">
+                <div
+                  class="w-box c76ugon c1va7jp0 c18xibj9 ccn5ruk c5ehae6 cax3zcx c1le23sj c40yjke c1kzn7na c17q2jvf csugexd cciu1th co2lzyj cghs7z1 c18xchlu ckqzz7r"
+                >
+                  <a
+                    href="https://youtube.com/@contrast-dll"
+                    class="w-link c1umvwl9 c13b531o c1my01bv c14z1eqr c1ktl1y1 cr8yqfm c1ufwdzl c5blvcv cml0h3f c135vpv5 csru8nn c1qyy4dh ct02u4h c1md20bl c1e892th c1qom380 cnf3mc6 cbm6zv4 ce8zlua c1mcu1jn c1d7r856 cd3iwfe c1yhcvvf cwc6hbl c11r52nx czr2pxy c3pidkv c1kol985 cy8zwmn cl60rel czukzo6 c1muywj1"
+                    >Open YT</a
+                  >
+                </div>
+              </div>
+              <div style="display: contents">
+                <div style="display: contents">
+                  <button
+                    type="button"
+                    aria-label="Open mobile menu"
+                    class="w-button c1umvwl9 ccfzz03 cub2gss cgcvr98 c1xjllne c135vpv5 cwvpjlf c1qyy4dh ct02u4h c1md20bl c1e892th c1qom380 cnf3mc6 cbm6zv4 ce8zlua c1mcu1jn c1d7r856 cd3iwfe c1yhcvvf cwc6hbl c11r52nx c1xty5yn c1g1x4wk cy8zwmn c9x99qz cl60rel czukzo6 c1muywj1 c891fy0 c1k6tqmo c1bxqinn ckrlbpk c1oxjrsz csud216 c1xiy5b1 cq7d8me c149s0mc c1ycnvnd"
+                    aria-haspopup="dialog"
+                    aria-expanded="false"
+                    aria-controls="radix-:R2um:"
+                    data-state="closed"
+                  >
+                    <div class="w-html-embed">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 22 22"
+                        fill="currentColor"
+                        width="100%"
+                        height="100%"
+                        style="display: block"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M2 5.998a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Zm0 5.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Zm0 5.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div id="newsroom-title-wrapper" style="padding-left: 20px; text-align: left;">
+      <h1 id="newsroom-title" class="newsroom-title">Newsroom</h1>
+    </div>
+    <div id="news-feed" style="max-width: 800px; margin: 40px auto; padding: 0 var(--size-px-5); min-height: 100px; display: block !important; visibility: visible !important; overflow: visible !important; position: relative !important;">
+    </div>
+    <script>
+      // Ensure title styling persists after Webflow rendering
+      function fixTitleAlignment() {
+        // First try to use the custom wrapper if it exists
+        let titleSection = document.getElementById('newsroom-title-wrapper');
+        let h1 = document.getElementById('newsroom-title');
+        
+        if (titleSection) {
+          titleSection.style.paddingLeft = '20px';
+          titleSection.style.textAlign = 'left';
+          titleSection.style.display = 'block';
+        }
+        
+        if (h1) {
+          h1.className = 'newsroom-title';
+          h1.style.cssText = 'display:block !important; text-align:left !important; margin:0 !important; padding:0 !important;';
+        }
+        
+        // ALSO inject title into Webflow's cbmc0x9 section if it's missing
+        const webflowSection = document.querySelector('div.w-box.cbmc0x9');
+        let webflowTitle = null;
+        
+        if (webflowSection) {
+          // Check if title already exists in the webflow section
+          webflowTitle = webflowSection.querySelector('h1.newsroom-title');
+          
+          if (!webflowTitle) {
+            // Create and inject the title
+            webflowTitle = document.createElement('h1');
+            webflowTitle.id = 'newsroom-title-webflow';
+            webflowTitle.className = 'newsroom-title';
+            webflowTitle.textContent = 'Newsroom';
+            webflowTitle.style.cssText = `
+              display: block !important;
+              text-align: left !important;
+              margin: 0 !important;
+              padding: 0 !important;
+              padding-left: 20px !important;
+              font-family: 'Inter', sans-serif !important;
+              font-weight: 500 !important;
+              font-size: clamp(2rem, 9vw, 5rem) !important;
+              color: transparent !important;
+              background-image: var(--gradient-2) !important;
+              background-clip: text !important;
+              -webkit-background-clip: text !important;
+              line-height: 0.95 !important;
+              letter-spacing: -2px !important;
+            `;
+            
+            // Insert at the beginning of cbmc0x9
+            webflowSection.insertBefore(webflowTitle, webflowSection.firstChild);
+            console.log('✓ Injected title into Webflow cbmc0x9 section');
+          } else {
+            webflowTitle.style.cssText = webflowTitle.style.cssText + `
+              display: block !important;
+              visibility: visible !important;
+              opacity: 1 !important;
+            `;
+          }
+        }
+
+        // Remove any extra duplicate Newsroom headings created by Webflow
+        document.querySelectorAll('h1').forEach((node) => {
+          if ((node !== h1 && node !== webflowTitle) && node.textContent.trim() === 'Newsroom') {
+            node.remove();
+          }
+        });
+      }
+      
+      // Run immediately and after load
+      fixTitleAlignment();
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', fixTitleAlignment);
+      }
+      window.addEventListener('load', fixTitleAlignment);
+      
+      // Watch for DOM changes and reapply the title styling whenever the wrapper changes
+      const observer = new MutationObserver(() => {
+        fixTitleAlignment();
+      });
+      observer.observe(document.body, { childList: true, subtree: true });
+    </script>
+    <script>
+      async function loadNewsroom() {
+        // Try multiple CSV URL formats for better compatibility
+        const csvUrls = [
+          'https://docs.google.com/spreadsheets/d/e/2PACX-1vSq730VlKoVv7wgUkEzlR1CuIJVg8WrNES0AEq2qCIpXxxhhFPqruf6_aAUBD0TfhVjL8vVZhXLqWyJ/pub?output=csv',
+          'https://docs.google.com/spreadsheets/d/e/2PACX-1vSq730VlKoVv7wgUkEzlR1CuIJVg8WrNES0AEq2qCIpXxxhhFPqruf6_aAUBD0TfhVjL8vVZhXLqWyJ/pub?output=csv&gid=0'
+        ];
+        
+        // Create an isolated container if it doesn't exist
+        // Use a selector that exists: find the containing div with the Newsroom heading
+        let pillWrapper = document.getElementById('news-pills-root');
+        if (!pillWrapper) {
+          pillWrapper = document.createElement('div');
+          pillWrapper.id = 'news-pills-root';
+          pillWrapper.setAttribute('data-webflow-processed', 'true');
+          pillWrapper.style.cssText = `
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 24px;
+            min-height: 100px;
+            display: block !important;
+            visibility: visible !important;
+            overflow: visible !important;
+            position: relative !important;
+          `;
+          
+          // Find the Newsroom heading section and insert after it
+          const newsroomSection = document.querySelector('div.w-box.cbmc0x9');
+          if (newsroomSection && newsroomSection.nextElementSibling) {
+            // Insert right after the Newsroom heading section
+            newsroomSection.parentNode.insertBefore(pillWrapper, newsroomSection.nextElementSibling);
+            console.log('Created isolated root container for pills after Newsroom heading');
+          } else {
+            // Fallback: insert after news-feed div if it exists
+            const newsFeed = document.getElementById('news-feed');
+            if (newsFeed && newsFeed.nextElementSibling) {
+              newsFeed.parentNode.insertBefore(pillWrapper, newsFeed.nextElementSibling);
+              console.log('Created isolated root container for pills after news-feed div');
+            } else if (document.body) {
+              // Last resort: append to body
+              document.body.appendChild(pillWrapper);
+              console.log('Created isolated root container for pills at body end');
+            } else {
+              console.warn('Body element not found');
+              return;
+            }
+          }
+        }
+
+        // Show loading state in wrapper
+        pillWrapper.textContent = '';
+        const loadingDiv = document.createElement('div');
+        loadingDiv.className = 'news-unavailable';
+        loadingDiv.textContent = 'Loading news...';
+        pillWrapper.appendChild(loadingDiv);
+
+        let csvText = null;
+
+        // Try each URL format until one works
+        for (const sheetURL of csvUrls) {
+          try {
+            console.log('Attempting to fetch:', sheetURL);
+            const response = await fetch(sheetURL, {
+              method: 'GET',
+              headers: {
+                'Accept': 'text/csv,text/plain,*/*'
+              }
+            });
+            
+            if (!response.ok) {
+              console.warn(`Failed with status ${response.status}, trying next URL...`);
+              continue;
+            }
+
+            csvText = await response.text();
+            console.log('✓ Successfully fetched CSV');
+            break;
+          } catch (e) {
+            console.warn(`Failed to fetch ${sheetURL}:`, e.message);
+          }
+        }
+
+        if (!csvText) {
+          console.error('Failed to fetch from all CSV URLs');
+          pillWrapper.textContent = '';
+          const errorDiv = document.createElement('div');
+          errorDiv.className = 'news-unavailable';
+          errorDiv.textContent = 'Unable to load news data. Please check your internet connection or try again later.';
+          pillWrapper.appendChild(errorDiv);
+          return;
+        }
+
+        try {
+          console.log('CSV Data received, length:', csvText.length);
+          
+          // Parse CSV properly (handles quoted cells with newlines/commas)
+          const rows = parseCSV(csvText);
+          
+          console.log('Total rows (including header):', rows.length);
+          if (rows.length > 0) {
+            console.log('Header row:', rows[0].join(' | '));
+          }
+          
+          // Skip header row
+          const dataRows = rows.slice(1);
+          console.log('Data rows (excluding header):', dataRows.length);
+
+          if (dataRows.length === 0) {
+            console.log('No data rows found - spreadsheet may be empty');
+            pillWrapper.textContent = '';
+            const emptyDiv = document.createElement('div');
+            emptyDiv.className = 'news-unavailable';
+            emptyDiv.textContent = 'No articles available currently.';
+            pillWrapper.appendChild(emptyDiv);
+            return;
+          }
+
+          let pillsCreated = 0;
+
+          // Clear loading state
+          pillWrapper.textContent = '';
+
+          // Process each row
+          dataRows.forEach((cols, index) => {
+            if (!cols || cols.length === 0) {
+              console.log(`Row ${index}: empty`);
+              return;
+            }
+
+            console.log(`Row ${index}: ${cols.length} columns`);
+            
+            // Ensure we have at least title and date
+            if (cols.length < 2) {
+              console.log(`Row ${index}: insufficient columns (${cols.length})`);
+              return;
+            }
+
+            const title = cols[0] ? cols[0].trim() : '';
+            const date = cols[1] ? cols[1].trim() : '';
+            const image = cols.length > 2 ? (cols[2] ? cols[2].trim() : '') : '';
+            const body = cols.length > 3 ? (cols[3] ? cols[3].trim() : '') : '';
+
+            if (!title) {
+              console.log(`Row ${index}: empty title`);
+              return;
+            }
+
+            console.log(`Row ${index}: ✓ Creating pill for "${title}" (${date})`);
+
+            // Create pill container with INLINE styles to bypass CSS conflicts
+            const pill = document.createElement('div');
+            pill.setAttribute('role', 'button');
+            pill.setAttribute('tabindex', '0');
+            // Mark as not-webflow-interactive to prevent Webflow framework processing
+            pill.setAttribute('data-w-dynamic', 'skip');
+            pill.setAttribute('data-webflow-processed', 'true');
+            
+            // Apply inline styles directly - cannot be overridden by external CSS
+            pill.style.cssText = `
+              border: 2px solid transparent;
+              border-radius: 50px;
+              background-image: linear-gradient(black, black), linear-gradient(180deg, #FFFFFF 54.17%, #B372CF 100%);
+              background-origin: border-box;
+              background-clip: padding-box, border-box;
+              padding: 16px 20px;
+              margin: 0 auto 12px;
+              cursor: pointer;
+              transition: all 0.3s ease;
+              overflow: visible !important;
+              height: 55px;
+              display: flex !important;
+              flex-direction: column;
+              justify-content: flex-start;
+              align-items: stretch;
+              visibility: visible !important;
+              opacity: 1 !important;
+              width: 100%;
+              box-sizing: border-box;
+            `;
+            // Don't use className since we're using inline styles for full control
+            // pill.className = 'news-pill';
+
+            // Create header
+            const header = document.createElement('div');
+            header.style.cssText = `
+              display: flex !important;
+              justify-content: space-between;
+              align-items: center;
+              gap: 12px;
+              font-family: 'Inter', sans-serif;
+              flex-shrink: 0;
+              min-height: 24px;
+              visibility: visible !important;
+              opacity: 1 !important;
+            `;
+            // Don't use className since we're using inline styles for full control
+            // header.className = 'pill-header';
+
+            const titleSpan = document.createElement('span');
+            titleSpan.style.cssText = `
+              font-weight: 600;
+              font-size: 16px;
+              white-space: normal;
+              overflow: visible;
+              text-overflow: clip;
+              flex: 1;
+              visibility: visible !important;
+              opacity: 1 !important;
+              color: white;
+            `;
+            titleSpan.textContent = title;
+            header.appendChild(titleSpan);
+
+            const dateSmall = document.createElement('small');
+            dateSmall.style.cssText = `
+              opacity: 0.7;
+              font-size: 13px;
+              white-space: nowrap;
+              flex-shrink: 0;
+              visibility: visible !important;
+              color: white;
+            `;
+            dateSmall.textContent = date;
+            header.appendChild(dateSmall);
+
+            pill.appendChild(header);
+
+            // Create content area
+            const content = document.createElement('div');
+            content.style.cssText = `
+              display: none;
+              margin-top: 16px;
+              white-space: pre-line;
+              word-wrap: break-word;
+              font-family: 'Inter', sans-serif;
+              font-size: 14px;
+              line-height: 1.6;
+              width: 100%;
+              visibility: visible !important;
+              opacity: 1 !important;
+              color: white;
+            `;
+            // Don't use className since we're using inline styles for full control
+            // content.className = 'pill-content';
+
+            // Add image if present
+            if (image) {
+              const img = document.createElement('img');
+              img.style.cssText = `
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+                margin-bottom: 12px;
+                display: block;
+              `;
+              // Don't use className since we're using inline styles for full control
+              // img.className = 'pill-img';
+              img.alt = 'News image';
+              img.src = image;
+              img.onerror = function() { this.style.display = 'none'; };
+              content.appendChild(img);
+            }
+
+            // Add body text if present
+            if (body) {
+              const bodyDiv = document.createElement('div');
+              bodyDiv.style.cssText = `
+                visibility: visible !important;
+                opacity: 1 !important;
+              `;
+              bodyDiv.textContent = body;
+              content.appendChild(bodyDiv);
+            }
+
+            pill.appendChild(content);
+
+            // Toggle expanded state on click or Enter key (use inline styles)
+            const toggleExpanded = () => {
+              const isExpanded = content.style.display && content.style.display !== 'none';
+              if (isExpanded) {
+                content.style.display = 'none';
+                pill.style.height = '55px';
+                pill.style.borderRadius = '50px';
+                pill.style.padding = '16px 20px';
+                pill.setAttribute('aria-expanded', 'false');
+              } else {
+                content.style.display = 'block';
+                pill.style.height = 'auto';
+                pill.style.borderRadius = '20px';
+                pill.style.padding = '24px';
+                pill.setAttribute('aria-expanded', 'true');
+              }
+            };
+            pill.addEventListener('click', toggleExpanded);
+            pill.addEventListener('keydown', (e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                toggleExpanded();
+              }
+            });
+
+            pillWrapper.appendChild(pill);
+            pillsCreated++;
+            
+            // Force reflow to ensure pill is rendered
+            try {
+              pill.offsetHeight; // Trigger reflow
+            } catch (e) {
+              console.warn('Reflow trigger failed:', e);
+            }
+            
+            // Debug: Log computed styles for first pill
+            if (pillsCreated === 1) {
+              setTimeout(() => {
+                const computed = window.getComputedStyle(pill);
+                console.log('First pill computed styles:');
+                console.log('  display:', computed.display);
+                console.log('  visibility:', computed.visibility);
+                console.log('  opacity:', computed.opacity);
+                console.log('  height:', computed.height);
+                console.log('  width:', computed.width);
+                console.log('  overflow:', computed.overflow);
+                console.log('  Pill element:', pill);
+                console.log('  Pill in DOM:', document.body.contains(pill));
+              }, 100);
+            }
+          });
+
+          console.log(`✓ Successfully created ${pillsCreated} news pills`);
+          console.log('Wrapper children count:', pillWrapper.children.length);
+          
+          // Force visibility of all pills
+          if (pillsCreated > 0) {
+            pillWrapper.style.display = 'block';
+            pillWrapper.style.visibility = 'visible';
+            pillWrapper.style.opacity = '1';
+            Array.from(pillWrapper.children).forEach((pill) => {
+              pill.style.display = 'flex';
+              pill.style.visibility = 'visible';
+              pill.style.opacity = '1';
+            });
+            console.log('Forced visibility on all pills and container');
+
+            // Check visibility after 500ms
+            setTimeout(() => {
+              const wrapperInDom = document.body.contains(pillWrapper);
+              console.log('Wrapper in DOM:', wrapperInDom);
+              if (!wrapperInDom) {
+                console.warn('Root container was removed! Re-creating...');
+                loadNewsroom();
+                return;
+              }
+              
+              const childrenVisible = Array.from(pillWrapper.children).some(child => {
+                const computed = window.getComputedStyle(child);
+                return computed.display !== 'none' && computed.visibility !== 'hidden' && computed.opacity !== '0';
+              });
+              
+              if (!childrenVisible && pillsCreated > 0) {
+                console.warn('Pills not visible, showing text fallback');
+                pillWrapper.textContent = '';
+                const header = document.createElement('div');
+                header.style.cssText = 'padding: 20px; color: white; text-align: center; font-family: Inter, sans-serif;';
+                header.textContent = 'News Feed:';
+                pillWrapper.appendChild(header);
+                
+                dataRows.forEach((cols, i) => {
+                  const title = cols[0] ? cols[0].trim() : 'Untitled';
+                  const date = cols[1] ? cols[1].trim() : 'Unknown date';
+                  const text = cols[3] ? cols[3].trim() : 'No content';
+                  const fallback = document.createElement('div');
+                  fallback.style.cssText = 'padding: 15px; margin: 10px 0; border-left: 3px solid #ff00ff; background: rgba(255,0,255,0.1); color: white; font-family: Inter, sans-serif; font-size: 14px; white-space: pre-wrap; word-break: break-word; overflow: visible !important;';
+                  fallback.textContent = `${title}\n${date}\n\n${text}`;
+                  pillWrapper.appendChild(fallback);
+                });
+                console.log('Text fallback created');
+              } else if (childrenVisible) {
+                console.log('Pills are visible!');
+              }
+            }, 500);
+          }
+
+          if (pillWrapper.children.length === 0) {
+            console.log('No pills were created, showing empty state');
+            pillWrapper.textContent = '';
+            const noValidDiv = document.createElement('div');
+            noValidDiv.className = 'news-unavailable';
+            noValidDiv.textContent = 'No valid articles found.';
+            pillWrapper.appendChild(noValidDiv);
+          }
+
+        } catch (error) {
+          console.error('Newsroom Error:', error);
+          console.error('Error stack:', error.stack);
+          if (pillWrapper) {
+            pillWrapper.textContent = '';
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'news-unavailable';
+            errorDiv.textContent = 'News currently unavailable. Please try again later.';
+            pillWrapper.appendChild(errorDiv);
+          }
+        }
+      }
+
+      // Robust CSV parser that handles quoted cells with newlines and commas
+      function parseCSV(csvText) {
+        const rows = [];
+        let currentRow = [];
+        let currentCell = '';
+        let insideQuotes = false;
+        
+        for (let i = 0; i < csvText.length; i++) {
+          const char = csvText[i];
+          const nextChar = csvText[i + 1];
+          
+          if (char === '"') {
+            if (insideQuotes && nextChar === '"') {
+              // Escaped quote
+              currentCell += '"';
+              i++; // Skip the next quote
+            } else {
+              // Toggle quoted state
+              insideQuotes = !insideQuotes;
+            }
+          } else if (char === ',' && !insideQuotes) {
+            // End of cell
+            currentRow.push(currentCell);
+            currentCell = '';
+          } else if ((char === '\n' || char === '\r') && !insideQuotes) {
+            // End of row
+            if (currentCell || currentRow.length > 0) {
+              currentRow.push(currentCell);
+              if (currentRow.some(cell => cell.trim())) {
+                rows.push(currentRow);
+              }
+              currentRow = [];
+              currentCell = '';
+            }
+            // Skip \r\n combo
+            if (char === '\r' && nextChar === '\n') {
+              i++;
+            }
+          } else {
+            currentCell += char;
+          }
+        }
+        
+        // Add last cell and row
+        if (currentCell || currentRow.length > 0) {
+          currentRow.push(currentCell);
+        }
+        if (currentRow.some(cell => cell.trim())) {
+          rows.push(currentRow);
+        }
+        
+        return rows;
+      }
+
+      // Helper function to escape HTML special characters
+      function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+      }
+
+      // Run after full window load to avoid being overwritten by hydration frameworks
+      console.log('=== Newsroom Script Loaded ===');
+      console.log('Document readyState:', document.readyState);
+      window.__newsroomReran = window.__newsroomReran || false;
+      window.__newsroomStarted = window.__newsroomStarted || false;
+
+      function startNewsroomWhenSafe() {
+        if (window.__newsroomStarted) return;
+        
+        // Remove framework-injected "No articles available" text
+        try {
+          const textElements = document.querySelectorAll('.w-text');
+          textElements.forEach(el => {
+            if (el.textContent.includes('No articles available') || el.textContent.includes('Last updated')) {
+              el.style.display = 'none';
+            }
+          });
+        } catch (e) {
+          console.log('Could not remove articles text:', e.message);
+        }
+        
+        // Prefer to run after full load so frameworks finish DOM replacements
+        if (document.readyState === 'complete') {
+          window.__newsroomStarted = true;
+          console.log('Document fully loaded, calling loadNewsroom now');
+          loadNewsroom();
+        } else {
+          console.log('Waiting for window.load before loading newsroom');
+          window.addEventListener('load', () => {
+            if (window.__newsroomStarted) return;
+            window.__newsroomStarted = true;
+            
+            // Remove framework-injected text
+            try {
+              const textElements = document.querySelectorAll('.w-text');
+              textElements.forEach(el => {
+                if (el.textContent.includes('No articles available') || el.textContent.includes('Last updated')) {
+                  el.style.display = 'none';
+                }
+              });
+            } catch (e) {
+              console.log('Could not remove articles text:', e.message);
+            }
+            
+            console.log('window.load fired');
+            loadNewsroom();
+          }, { once: true });
+
+          // Fallback: if load doesn't fire within 2s, call once
+          setTimeout(() => {
+            if (!window.__newsroomStarted) {
+              window.__newsroomStarted = true;
+              console.log('Fallback: calling loadNewsroom after timeout');
+              loadNewsroom();
+            }
+          }, 2000);
+        }
+      }
+
+      startNewsroomWhenSafe();
+    </script>
+    <div style="display: contents">
+      <div style="display: contents">
+        <footer class="w-box cna0hdz c1mzb2kd">
+          <div
+            class="w-box c1357293 c9jnjeu czr2pxy c155uc7w cry9bxc c1lfjoq7 c1778y6x c1wt8a7g c1s46o9r cdczzub c1fd0kk1 c11gzs80"
+          >
+            <div class="w-box cry9bxc c18v2pa2 c174sw29 cmaksb1 c1i9o1yp">
+              <a
+                href="/"
+                class="w-link ceaxqcs cld4m44 c1e9wxra c1c9nyn co9inq6 c18nx7en c13zjl4p c1x4yn0w cl60rel czukzo6 cho8smv"
+                ><img
+                  alt="Logo"
+                  src="https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg"
+                  class="w-image c18apts0"
+                  sizes="(min-width: 1280px) 50vw, 100vw"
+                  srcset="
+                    https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg  384w,
+                    https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg  640w,
+                    https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg  750w,
+                    https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg  828w,
+                    https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 1080w,
+                    https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 1200w,
+                    https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 1920w,
+                    https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 2048w,
+                    https://image2url.com/r2/default/images/1774754539472-08eb1709-f733-44e4-b64a-aa575a8e1370.jpeg 3840w
+                  "
+                  decoding="async"
+                  loading="lazy"
+              /></a>
+              <div class="w-box cry9bxc c1lxiyww c1s46o9r cdczzub c1jjfh4b">
+                <nav
+                  aria-labelledby="menu4Title"
+                  class="w-box cry9bxc c1z0l37u c1ml0hr7 c1lfjoq7"
+                >
+                  <h2
+                    id="menu4Title"
+                    class="w-heading c160atll c11dowh9 c32myit cwrra4i c12y6bqh"
+                  >
+                    Media
+                  </h2>
+                  <ul
+                    class="w-list c34dwh1 c1y6imu0 c1cn3fw9 cry9bxc c1z0l37u c1ml0hr7 c1lfjoq7"
+                  >
+                    <li class="w-list-item">
+                      <a
+                        href="/"
+                        class="w-link c12j9tyh csru8nn c1e9wxra c1c9nyn co9inq6 c18nx7en c13zjl4p ch11gwv c1md20bl c1e892th c1qyy4dh ct02u4h c1e7helk c1l0vha7 csyy8v5 c1bc2i7x c17r8x7j c13b531o c1my01bv c135vpv5 c1y6imu0 c3qzgd0 cl60rel czukzo6 c1170qfo c12mjb61"
+                        >YouTube</a
+                      >
+                    </li>
+                    <li class="w-list-item">
+                      <a
+                        href="https://discord.com/users/1371675771835519098"
+                        class="w-link c12j9tyh csru8nn c1e9wxra c1c9nyn co9inq6 c18nx7en c13zjl4p ch11gwv c1md20bl c1e892th c1qyy4dh ct02u4h c1e7helk c1l0vha7 csyy8v5 c1bc2i7x c17r8x7j c13b531o c1my01bv c135vpv5 c1y6imu0 c3qzgd0 cl60rel czukzo6 c1170qfo c12mjb61"
+                        >Discord</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+                <nav
+                  aria-labelledby="menu4Title"
+                  class="w-box cry9bxc c1z0l37u c1ml0hr7 c1lfjoq7"
+                >
+                  <h2
+                    id="menu4Title"
+                    class="w-heading c160atll c11dowh9 c32myit cwrra4i c12y6bqh"
+                  >
+                    Misc.
+                  </h2>
+                  <ul
+                    class="w-list c34dwh1 c1y6imu0 c1cn3fw9 cry9bxc c1z0l37u c1ml0hr7 c1lfjoq7"
+                  >
+                    <li class="w-list-item">
+                      <a
+                        href="/"
+                        class="w-link c12j9tyh csru8nn c1e9wxra c1c9nyn co9inq6 c18nx7en c13zjl4p ch11gwv c1md20bl c1e892th c1qyy4dh ct02u4h c1e7helk c1l0vha7 csyy8v5 c1bc2i7x c17r8x7j c13b531o c1my01bv c135vpv5 c1y6imu0 c3qzgd0 cl60rel czukzo6 c1170qfo c12mjb61"
+                        >YouTube</a
+                      >
+                    </li>
+                    <li class="w-list-item">
+                      <a
+                        href="https://discord.com/users/1371675771835519098"
+                        class="w-link c12j9tyh csru8nn c1e9wxra c1c9nyn co9inq6 c18nx7en c13zjl4p ch11gwv c1md20bl c1e892th c1qyy4dh ct02u4h c1e7helk c1l0vha7 csyy8v5 c1bc2i7x c17r8x7j c13b531o c1my01bv c135vpv5 c1y6imu0 c3qzgd0 cl60rel czukzo6 c1170qfo c12mjb61"
+                        >Discord</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+                <nav
+                  aria-labelledby="menu4Title"
+                  class="w-box cry9bxc c1z0l37u c1ml0hr7 c1lfjoq7"
+                >
+                  <h2
+                    id="menu4Title"
+                    class="w-heading c160atll c11dowh9 c32myit cwrra4i c12y6bqh"
+                  >
+                    Legal
+                  </h2>
+                  <ul
+                    class="w-list c34dwh1 c1y6imu0 c1cn3fw9 cry9bxc c1z0l37u c1ml0hr7 c1lfjoq7"
+                  >
+                    <li class="w-list-item">
+                      <a
+                        href="/credits"
+                        class="w-link c12j9tyh csru8nn c1e9wxra c1c9nyn co9inq6 c18nx7en c13zjl4p ch11gwv c1md20bl c1e892th c1qyy4dh ct02u4h c1e7helk c1l0vha7 csyy8v5 c1bc2i7x c17r8x7j c13b531o c1my01bv c135vpv5 c1y6imu0 c3qzgd0 cl60rel czukzo6 c1170qfo c12mjb61"
+                        >License</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="w-box cry9bxc ct02u4h c1lfjoq7 c16xs6ny">
+              <div class="w-box cry9bxc c1qyy4dh ct02u4h c1z0l37u c1ml0hr7">
+                <a
+                  aria-label="YouTube"
+                  class="w-link ceaxqcs cld4m44 c1e9wxra c1c9nyn co9inq6 c18nx7en c13zjl4p cl60rel czukzo6 cho8smv"
+                  href="#"
+                  ><div class="w-html-embed">
+                    <svg
+                      width="10%"
+                      height="10%"
+                      viewBox="0 0 16 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        x="1.5"
+                        y="3.5"
+                        width="13"
+                        height="10"
+                        rx="2"
+                        stroke="currentColor"
+                        stroke-width="1.2"
+                      />
+                      <path d="M6.5 6L10.5 8.5L6.5 11V6Z" fill="currentColor" />
+                    </svg></div
+                ></a>
+              </div>
+              <div
+                class="w-box cry9bxc c1qyy4dh c1wt8a7g c1md20bl c1e892th c1y4fwd4"
+              >
+                <div class="w-text">© 2026, contrast.dll</div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script id="vike_pageContext" type="application/json">
+      {
+        "_urlRewrite": null,
+        "pageId": "/pages/newsroom",
+        "routeParams": {},
+        "data": {
+          "url": "https://url/newsroom",
+          "system": {
+            "params": {},
+            "search": {},
+            "origin": "https://url",
+            "pathname": "/newsroom"
+          },
+          "resources": {},
+          "pageMeta": {
+            "title": "Newsroom - contrast",
+            "description": "Learn the latest news from contrast",
+            "excludePageFromSearch": true,
+            "language": "",
+            "socialImageAssetName": "!undefined",
+            "socialImageUrl": "",
+            "status": "!undefined",
+            "redirect": "",
+            "custom": []
+          }
+        }
+      }
+    </script>
+    <script id="vike_globalContext" type="application/json">
+      {}
+    </script>
+    <script
+      src="/assets/entries/entry-server-routing.7J9NJ5nT.js"
+      type="module"
+      async
+    ></script>
+    <link
+      rel="modulepreload"
+      href="/assets/entries/pages_newsroom.L1LOuiyk.js"
+      as="script"
+      type="text/javascript"
+    /><link
+      rel="modulepreload"
+      href="/assets/chunks/chunk-BegflO5J.js"
+      as="script"
+      type="text/javascript"
+    /><link
+      rel="modulepreload"
+      href="/assets/chunks/chunk-dB-xVK00.js"
+      as="script"
+      type="text/javascript"
+    />
+  </body>
+</html>
